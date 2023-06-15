@@ -1,0 +1,5 @@
+baseURL = "https://blogdevops.github.io/"
+languageCode = "en-us"
+title = "Minha carreira DevOps"
+
+theme="holy"

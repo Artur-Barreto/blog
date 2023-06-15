@@ -1,0 +1,6 @@
+[submodule "blogdevops/themes/themes/holy"]
+	path = blogdevops/themes/themes/holy
+	url = https://github.com/serkodev/holy.git
+[submodule "blogdevops/themes/holy"]
+	path = blogdevops/themes/holy
+	url = https://github.com/serkodev/holy.git
