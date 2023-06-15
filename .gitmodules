@@ -4,3 +4,7 @@
 [submodule "blogdevops/themes/holy"]
 	path = blogdevops/themes/holy
 	url = https://github.com/serkodev/holy.git
+[submodule "blogdevops/public"]
+	path = blogdevops/public
+	url = https://github.com/Artur-Barreto/blogdevops.github.io.git
+	branch = main
