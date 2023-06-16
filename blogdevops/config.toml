@@ -2,20 +2,7 @@ baseURL = "https://blogdevops.github.io/"
 languageCode = "en-us"
 title = "Minha carreira DevOps"
 
-[menu]
-  [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 3
-
-  [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 4
+[permalinks]
+  posts = "/:year/:month/:slug/"
 
 theme="holy"
