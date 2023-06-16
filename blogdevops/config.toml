@@ -1,4 +1,4 @@
-baseURL = "https://artur-barreto.github.io/"
+baseURL = "https://artur-barreto.github.io/blogdevops/"
 contentDir = "content"
 languageCode = "en-us"
 title = "Minha carreira DevOps"
