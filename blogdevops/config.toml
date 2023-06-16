@@ -3,6 +3,6 @@ languageCode = "en-us"
 title = "Minha carreira DevOps"
 
 [permalinks]
-posts ="posts/teste/"
+  posts ="posts/"
 
 theme="holy"
