@@ -1,4 +1,5 @@
 baseURL = "https://blogdevops.github.io/"
+contentDir = "content/posts"
 languageCode = "en-us"
 title = "Minha carreira DevOps"
 
