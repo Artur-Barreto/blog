@@ -4,6 +4,15 @@ languageCode = "en-us"
 title = "Minha carreira DevOps"
 
 [permalinks]
-  posts = "/:year/:month/:slug/"
+posts = "/:year/:month/:slug/"
 
-theme="holy"
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+theme = "holy"
