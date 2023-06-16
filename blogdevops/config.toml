@@ -1,20 +1,21 @@
 baseURL = "https://blogdevops.github.io/"
-contentDir = "content/posts"
+contentDir = "content"
 languageCode = "en-us"
 title = "Minha carreira DevOps"
+theme = "holy"
+
+[params]
+  author = "Artur barreto"
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
 
 [permalinks]
-posts = "/:year/:month/:slug/"
-
-[[menu.main]]
-identifier = "home"
-name = "Home"
-url = "/"
-
-[[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts/"
-
-
-theme = "holy"
+  posts = "/posts/:year/:month/:day/:slug/"
